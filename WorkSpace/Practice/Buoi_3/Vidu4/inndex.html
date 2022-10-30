@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .show{
+            display: flex;
+            background: rgb(243, 175, 175);
+            margin-left: -10px;
+            list-style-type: none;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .show-item{ 
+            width: calc(100%/4 - 10px);    
+            margin-left: 10px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .show-img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+        }
+    </style>
+</head>
+<body>
+
+
+    <ul class="show">
+        <li class="show-item">
+                <img src="https://st.quantrimang.com/photos/image/2021/03/25/Hinh-nen-Minion-9.jpg" alt="" class="show-img">
+        </li>
+        <li class="show-item">
+            <img src="https://expresstours.files.wordpress.com/2015/07/minion.jpg" alt="" class="show-img"> 
+        </li>
+        <li class="show-item">
+            <img src="https://i.pinimg.com/474x/60/5b/a5/605ba56bedf65814b0f8e111c06d91b2--minion-wallpaper-iphone-c-cases.jpg" alt="" class="show-img">
+        </li>
+        <li class="show-item">
+            <img src="https://cdn.sforum.vn/sforum/wp-content/uploads/2022/07/41-1.jpg" alt="" class="show-img">
+        </li>
+        
+    </ul>
+
+</body>
+</html>

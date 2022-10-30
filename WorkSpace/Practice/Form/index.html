@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display:  flex;
+            flex-wrap: wrap;
+        }
+
+        .product{
+            margin-top: 100px;
+            width: 200px;
+            height: 200px;
+            position: relative;
+        }
+         .img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .pro-text{
+
+            position: absolute;
+            bottom: 0;
+            background: #ccc;
+            opacity: 0;
+        }
+        .product:hover .pro-text{
+            opacity: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <form action="form">
+            <input type="text" required >
+            <input type="submit" value="Tìm kiếm" >
+        </form>
+    </div>
+    
+    <div class="product">
+        <img src="/WorkSpace/Assgiment/Images/pic10.jpg" alt="" class="img">
+        <p class="pro-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi ullam excepturi labore, ea ad natus architecto tenetur sequi vero. Accusantium qui numquam labore rem recusandae, delectus natus architecto dolorem voluptates!.</p>
+    </div>
+  
+</body>
+</html>

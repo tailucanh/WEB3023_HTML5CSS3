@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="app.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="title">
+            <img src="../Images/header.png" >
+        </div>
+       
+        <nav>
+            <a href="#">Trang chủ </a> <span>/</span>
+            <a href="#">HTML5 cơ bản </a> <span>/</span>
+            <a href="#">HTML5 nâng cao</a> <span>/</span>
+            <a href="#">Kĩ thuật HTML5  </a> <span>/</span>
+            <a href="#">Tin tức HTML5 </a><span>/</span>
+            <a href="#">Đăng kí </a><span>/</span>
+            <a href="#">Đăng nhập </a><span>/</span>
+            <a href="#">Liên hệ </a>
+        </nav>
+    </header>
+
+    <section>
+        <div class="title">
+            <h3>Chào mừng bạn đến với tạp chí HTML5 & CSS3 </h3>
+        </div>
+        <article class="box-input">
+            <form id="myForm">
+              <div class="box">
+                <label>Tên đăng nhập:</label>   
+                <input type="text"  class="inputs" id="name" autocomplete="off">
+                <span id="warningName"  class="spWar"></span>
+              </div>
+            <div class="box">
+                <label>Mật khẩu:</label>   
+                <input type="password"  class="inputs" id="pass">  
+                <span id="warningPass"  class="spWar"></span>
+            </div>
+
+            
+              <div class="box">
+                 <label>Email:</label>   
+                <input type="email"  class="inputs" id="email" autocomplete="off">   
+                <span id="warningEmail"  class="spWar"> </span>
+              </div>
+           
+            
+              <div class="box">
+                <label>Thành phố:</label>   
+                
+                <input list="thanh-pho"  class="inputs" id="thanhpho" autocomplete="off">
+                <datalist id="thanh-pho">
+                    <option value="Thanh Hóa">
+                    <option value="Nghệ An">
+                    <option value="Hà Nội">
+                    <option value="Hạ Long">
+                </datalist>
+                <span id="warningTp"  class="spWar"></span>
+              </div>
+           
+
+              <div class="box">
+                <label>Độ tuổi trung bình:</label>   
+                <input type="range" id="age" max="45" min="18" step="1" value="20">   
+              </div>
+          
+            
+              <div class="box2">
+                <label>Bạn muốn theo dõi bài viết từ chủ đề nào ?</label> <br>
+
+                    <div class="boxCheck">
+                         <input type="checkbox"  value="html"><label class="label1 check">HTML5 Cơ bản</label>   
+                        <input type="checkbox" class="check"  value="html"><label>CSS3 Cơ bản</label>   
+                    </div>
+                    <div class="boxCheck">                
+                        <input type="checkbox" class="check" value="html"><label>HTML5 Nâng cao</label>   
+                        <input type="checkbox" class="check" value="html"><label>CSS3 Nâng cao</label>   
+                    </div>
+                    <span id="warningCheck"  class="spWar2"></span>
+              </div>
+                <button onclick="return resetForm()" id="btnReset">Làm lại</button>
+            </form>
+                <button onclick="return loginForm()" id="btnLogin">Đăng kí</button>
+       
+           <div class="title">
+                <h3>Thành phần HTML5 </h3>
+            </div>
+            <div class="boxTp">
+                <div class="boxContent">
+                    <img src="../Images/icon4.png" alt="">
+                    <p>EFFECTS</p>
+                </div>
+                <div class="boxContent">
+                    <img src="../Images/icon3.png" alt="">
+                    <p>CONNECTIVITY</p>
+                </div>
+                <div class="boxContent">
+                    <img src="../Images/icon1.png" alt="">
+                    <p>MULTIMEDIA</p>
+                </div>
+                <div class="boxContent2">
+                    <img src="../Images/icon2.png" alt="">
+                    <p>OFFLINE STORAGE</p>
+                </div>
+            </div>
+         
+        </article>
+        
+
+    </section>
+    <aside>
+        <img src="../Images/background.png">
+    </aside>
+    
+    <footer>
+        <p>  Đây là trang web phục vụ việc thực hành của sinh viên FPT Polytechnic. <br> Nghiêm cấm sử dụng với mục đích thương mại.</p>
+    </footer>
+
+
+
+
+
+</body>
+</html>

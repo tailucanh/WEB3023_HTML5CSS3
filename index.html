@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 120px;
+            height: 50px;
+            margin: 100px auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .text {
+            text-align: center;
+            line-height: 50px;
+        }
+
+        .box::after {
+            content: "";
+            position: absolute;
+            height: 42px;
+            width: 60px;
+            top: 50%;
+            left: 4px;
+            transform: translateY(-50%);
+            background: rgb(232, 150, 177);
+            border-radius: 50%;
+            z-index: -2;
+        }
+
+        .box::before {
+            content: "";
+            position: absolute;
+            height: 30px;
+            width: 40px;
+            left: 4px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgb(165, 148, 153);
+            border-radius: 50%;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="text">my perFume</div>
+    </div>
+</body>
+
+</html>

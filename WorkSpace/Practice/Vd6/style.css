@@ -1,0 +1,38 @@
+body{
+    width: 100%;
+    height: 100vh;
+   
+}
+.box{
+  text-align: center;
+  margin-top: 100px;
+  transform: rotate(200deg);
+  transform: rotate(160deg);
+  transform: rotate(180deg);    
+  animation: animate-cricle 1s infinite;
+}
+.cricle{
+    display: inline-block;
+    width: 70px;
+    margin: 0 auto;
+    height: 70px;
+    border-radius: 50%;
+   border: 3px solid rgb(21, 176, 223);
+   margin: 10px;
+   
+}
+.cricle:first-child{
+    border: 3px solid rgb(237, 72, 88);
+}
+
+@keyframes animate-cricle {
+    50%{
+        transform: rotate(200deg);
+    }
+    75%{
+        transform: rotate(160deg);
+    }
+    100%{
+        transform: rotate(180deg);      
+    }
+}

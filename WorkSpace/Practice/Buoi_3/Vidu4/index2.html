@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        @font-face {
+            font-family: Myfont;
+            src: url("permanen.ttf");
+        }
+
+        .work{
+            max-width: 1200px;
+            padding: 20px;
+        }
+
+        .work-title{
+            font-size: 35px;
+            font-family: Myfont;
+        }
+    
+        .work-filer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .work-tap-item{
+            list-style: none;
+            display: inline-flex;
+            margin-left: 30px;
+            border: 1px solid rgb(158, 219, 158);
+            padding: 15px;
+            border-radius: 50% 0 50% 50%;
+    
+        }
+        .work-tap-item:hover{
+            background: rgb(158, 219, 158);
+            color: rgb(255, 255, 255);
+            transition: all 0.4s ;
+
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="work">
+        <h3 class="work-title">Our work</h3>
+        <div class="work-filer">
+            <ul class="work-tap">
+                <li class="work-tap-item">All</li>
+                <li class="work-tap-item">HTML</li>
+                <li class="work-tap-item">CSS</li>
+                <li class="work-tap-item">PHP</li>
+            </ul>
+            <a href="" class="work-tap-item" >View All</a>
+        </div>
+    </div>
+    
+</body>
+</html>

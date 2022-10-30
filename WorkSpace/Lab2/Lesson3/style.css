@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header img{
+    padding-top: 2px;
+    padding-left: 22px
+}
+nav {
+    border-top: 2px solid rgb(76, 150, 215);
+    border-bottom: 2px solid rgb(76, 150, 215);
+    display: flex;
+    padding-left: 22px;
+    margin: 0;
+}
+nav span{
+    color:  rgb(76, 150, 215);
+    font-size: 60px;
+    line-height: 0.65;
+    font-weight: 100;
+    padding-top: 2px;
+    padding-left: 19px;
+    padding-right: 19px;
+  
+}
+
+nav  a{
+    color: #e44d26;
+    font-size: 18px;
+    text-decoration: none;
+    padding-top: 8px;
+    text-transform: uppercase;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+section{
+    float: left;
+    width: 60%;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    margin-left: 22px;
+    display: table-column;
+    margin-bottom:40px;
+    margin-top: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+section .title{
+    clear: both;
+    color: #1892bf;
+    font-size: 21px;
+    font-weight: 500;
+    border-bottom: 2px solid rgb(76, 150, 215);
+}
+
+section .box-input{
+    margin-top: 8px;
+ 
+}
+
+section .box-input .box{
+   display: inline-flex;
+   width: 100%;
+
+}
+
+section .box-input .box  label{
+    font-size: 18px;
+    width: 160px;
+    text-align: right;
+    font-weight: 500;
+    
+}
+section .box-input .box input{
+    width: 440px;
+    padding-left: 10px;
+    height: 30px;
+    font-size: 18px;
+    margin-bottom: 12px;
+    margin-left: 20px;
+    border:  none;
+    outline: none;
+}
+
+section .box-input .box .inputs{
+   box-shadow: 0px 0px 3px 1px gray;
+}
+
+
+section .box-input .box .inputs:focus{
+    box-shadow: 0px 0px 3px 1px rgb(151, 195, 233);
+}
+section .box-input .box  .spWar{
+    text-align: left;
+    margin-left: 5px;
+    font-weight: 500;
+    color: red;
+    font-size: 18   px;
+}
+
+
+
+section .box-input .box2{
+    font-weight: 500;
+    margin-top: 14px;
+    font-size: 18px;
+    margin-left: 30px;
+    width: 100%;
+
+}
+section .box-input .box2 .boxCheck{
+    margin-bottom: 5px;
+    margin-top: 8px;
+    margin-right: 10px;
+    text-align: left;
+
+}
+section .box-input .box2  .spWar2{
+    padding-left: 90px;
+    text-align: left;
+    font-weight: 500;
+    color: red;
+
+    font-size: 20px;
+}
+
+section .box-input .box2 .boxCheck label{
+    margin-right: 70px;
+}
+section .box-input .box2 .boxCheck .label1{
+    margin-right: 91px;
+}
+section .box-input .box2 .boxCheck input{
+    margin-right: 5px;
+    margin-left: 90px;
+}
+
+section .box-input .box2 .boxCheck #inputCheck{
+    margin-right: 5px;
+    margin-left: 150px;
+}
+section .box-input .box2 .boxCheck #inputCheck2{
+    margin-right: 5px;
+    margin-left: 150px;
+}
+
+#btnReset{
+    margin-right:250px;
+}
+#btnLogin{
+    margin-right: 15px;
+}
+ button{
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 130px;
+    padding: 3px;
+    color: #1892bf;
+    font-size: 20px;
+    background-color: rgb(242, 247, 249);
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px 1px gray;
+}
+button:focus{
+    background-color: rgb(184, 210, 221);
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px 1px gray;
+}
+section .box-input .boxTp{
+    display: inline-flex;
+    padding-left: 5px;
+    width: 100%;
+    border-bottom: 2px solid rgb(76, 150, 215);
+}
+section .box-input .boxTp .boxContent{
+    margin-top: 5px;
+    width: 210px;
+    text-align: center;
+    padding-left: 30px;
+    
+}
+section .box-input .boxTp .boxContent2{
+    margin-top: 5px;
+    width: 230px;
+    text-align: center;
+    padding-left: 40px;
+    
+}
+section .box-input .boxTp .boxContent p{
+    color: rgb(31, 124, 204);
+    font-size: 21px;
+    font-weight: bold;
+}
+
+section .box-input .boxTp .boxContent2 p{
+    color: rgb(31, 124, 204);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+aside{
+    float: right;
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 10px;
+    width:37%;
+}
+
+
+footer{
+    clear: both;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-top: 2px solid rgb(76, 150, 215);
+    padding-top: 10px;
+}
+footer p{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}

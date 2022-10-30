@@ -1,0 +1,30 @@
+body{
+    width: 100%;
+    height: 100vh;
+    
+}
+.bar{
+    position: relative;
+    height: 20px;
+    width: 500px;
+    background: #ccc;
+    border-radius: 10px;
+    margin:  0 auto;
+    margin-top: 300px;
+}
+.bar-progres{
+    height: 20px;
+    width: 50%;
+    background: rgb(83, 185, 43);
+    border-radius: inherit;
+}
+.bar-cricle{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: rgb(83, 185, 43);
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform:  translate(-50%,-50%);
+}

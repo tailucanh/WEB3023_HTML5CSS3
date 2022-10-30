@@ -1,0 +1,7 @@
+#wrapper { width: 980px; margin: 0pt auto 0pt auto}
+header { width: 980px; height: 150px; background-color: #CCCCCC}
+#nav {width: 970px; padding: 5px; background-color: #0091be}
+#content {width: 970px; height: 400px; float: left; padding: 5px; background-color: #CCCCCC}
+#content_in {width: 600px; float: right}
+#aside {width: 300px; float: left; margin-right: 5pxl background-color: #464646; color: #ffffff}
+#footer {width: 970px; float: left; padding: 5px; background-color: #CCCCCC; text-align: center; border-top: #000000 solid 1px;}
